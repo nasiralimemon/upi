@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>UPI Payment Demo</title></head>
+<body style="text-align:center;padding-top:50px">
+  <h2>UPI Pay Now</h2>
+  <button onclick="window.location.href='upi://pay?pa=9100702099@axl&pn=KARRI%20PANDU&am=10&cu=INR&tn=DemoTest&tr='+Date.now()">Pay with Any UPI App</button>
+  <br><br>
+  <button onclick="window.location.href='intent://pay?pa=9100702099@axl&pn=KARRI%20PANDU&am=10&cu=INR&tn=DemoTest&tr='+Date.now()+'#Intent;scheme=upi;package=com.phonepe.app;end'">Pay with PhonePe</button>
+</body>
+</html>
